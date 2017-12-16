@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <title>Football Teams</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles.css">
+
+</head>
+<body>
+
+    <div class="container"><br>
+
+        <header class="jumbotron">
+            <h1>Football Team</h1>
+        </header>
+
+
+        <!-- Rendered buttons will get dumped Here  -->
+        <div id="buttons-view"></div><br>
+
+        <!-- Submit team form -->
+        <form class="navbar-form navbar-right" id="team-form">
+            <div class="form-group">
+                <label for="team-input"><h3>Add Football team</h3></label>
+            </div>
+            <input type="text" id="team-input"><br>
+
+            <!-- Button triggers new team to be added -->
+            <input id="add-team" button type="submit" class="btn btn-default" value="Submit" style="margin: 5px;">
+        </form>
+
+        <!-- Gifs will get dumped dere -->
+        <div id="teams-view" data-state="still"></div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+    
+</body>
+</html>
